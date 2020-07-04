@@ -75,10 +75,11 @@ code{
   word-break: normal;
   word-wrap: normal;
   line-height: 2;
-  background-color:#000;
+  background-color:#fff;
   padding:15px;
   margin:10px;
   border-radius:5px;
+  color:#000;
 }
 @media only screen and (max-width: 815px) {
     /* For mobile phones: */

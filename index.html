@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML and Css Documentation</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <nav id="navbar">
@@ -11,8 +11,8 @@
   <ul> 
     <a class="nav-link" href="#Introduction" rel="internal"><li>Introduction</li></a>
     <a class="nav-link" href="#HTML_Editor" rel="internal"><li>HTML Editor</li></a>
-    <a class="nav-link" href="#Web_technologies_for_game_developers" rel="internal"><li></li></a>
-    <a class="nav-link" href="#Anatomy" rel="internal"><li>Anatomy</li></a>
+    <a class="nav-link" href="#HTML_Syntex" rel="internal"><li>HMTL Syntex</li></a>
+    <a class="nav-link" href="#Element" rel="internal"><li>Element</li></a>
     <a class="nav-link" href="#Examples" rel="internal"><li>Examples</li></a>
     <a class="nav-link" href="#APIs_for_game_development" rel="internal"><li>APIs for game development</li></a>
     <a class="nav-link" href="#Canvas" rel="internal"><li>Canvas</li></a>
@@ -56,46 +56,46 @@
         <br>
       <p><img src="images/create-file.png" alt="create-file"></p>
        New File ক্লিক করে একটা file খুলেবন ফাইলের নাম index.html দিন.
-
-       এখন আপনি যা লিখবেন তাই এই ফাইল ব্রাউজার open করলে দেখতে পাবেন
+       এখন আপনি যা লিখবেন তাই এই ফাইল ব্রাউজার open করলে দেখতে পারবে।
       </p>
       </artice>
     </section>
-  <section class="main-section" id="Web_technologies_for_game_developers">
-    <header>Web technologies for game developers</header>
+  <section class="main-section" id="HTML_Syntex">
+    <header>Html Syntex</header>
     <article>
-    <p>For the tech folks, let's dig into the APIs the Web brings to the table that cater to game developers. Here's a thorough list to give you a taste of what the Web can do for you:</p>
-      <li>Full Screen API</li>
-      <li>Gamepad API</li>
-      <li>HTML and CSS</li>
-      <li>HTML audio</li>
-      <li>IndexedDB</li>
-      <li>JavaScript</li>
-      <li>Pointer Lock API</li>
-      <li>SVG (Scalable Vector Graphics)</li>
-      <li>Typed Arrays</li>
-      <li>Web Audio API</li>
-      <li>WebGL</li>
-      <li>WebRTC</li>
-      <li>WebSockets</li>
-      <li>Web Workers</li>
-      <li>XMLHttpRequest and File API</li>
+    syntex মানে নিয়ম  । প্রতিটা কাজেই একটা নিয়ম থাকে যদি নিয়ম অনুসারে করা হয় কাজ টা সুন্দর হয় ।
+    <code>
+      &lt;DOCTYPE html&gt;
+      &lt;html&gt;
+
+
+      &lt;head&gt;
+
+
+      &lt;title&gt;      &lt;/title&gt;
+
+      &lt;/head&gt;
+
+
+      &lt;body&gt;         &lt;/body&gt;
+
+
+      &lt;/html&gt;
+     
+    </code>
+    <p>
+      এটা হল এইচটিএমএল ফরম্যাট।  
+    </p>
     </article>
     </section>
-  <section class="main-section" id="Anatomy">
-    <header>Anatomy</header>
+  <section class="main-section" id="Element">
+    <header>HTML Element</header>
     <article> 
-Some code needs to be run frame-by-frame so why attach that function to anything other than the browser's redraw schedule? On the Web, window.requestAnimationFrame() will be the foundation of most well-programmed per-frame main loops.  A callback function must be passed in to it when it is called. That callback function will be executed at a suitable time before the next repaint. Here is an example of a simple main loop:
-<code>window.main = function () {
-  window.requestAnimationFrame( main );
-  
-  // Whatever your main loop needs to do.
-};
-
-main(); //Start the cycle.
-</code>
-
-Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
+      <p>html element বা tag</p>
+      <ul>
+        <p>Tag বা element শুর হয়  <ট্যাগএর নাম >     &lt;/ট্যাগএর নাম&gt; Tag  বা element শেষ</p>
+        <p><img src="images/tag.png" alt="tag"></p>
+      </ul>
     </article>
     </section>
   <section class="main-section" id="Examples">
